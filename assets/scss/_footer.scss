@@ -1,0 +1,143 @@
+.footer-wrapper {
+  background-color: $color-secondary;
+
+  .footer-card {
+    @media (max-width: 575px) {
+      margin: 20px 0px;
+    }
+  }
+
+  .logo-side {
+    p {
+      font-size: 16px;
+      color: $color-gray-blue;
+      padding: 25px 0px;
+    }
+
+    a {
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      background-color: #1a3866;
+      color: $color-light;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+
+      &:hover {
+        background-color: $color-primary;
+        transition: all 0.3s ease-in;
+      }
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: $color-light;
+    padding-bottom: 30px;
+    margin-left: 20px;
+
+    @media (max-width: 576px) {
+      margin-left: 0;
+    }
+  }
+
+  .main-pages {
+    ul {
+      @media (max-width: 991px) {
+        margin-left: 0;
+      }
+    }
+
+    li {
+      @media (max-width: 767px) {
+        margin-right: 50px;
+      }
+      padding-bottom: 15px;
+      a {
+        color: $color-gray-blue;
+        font-size: 16px;
+
+        &:hover {
+          text-decoration: underline;
+          color: $color-light;
+        }
+      }
+    }
+  }
+
+  .get-update {
+    input {
+      background-color: #1a3866;
+      width: 100%;
+      margin: 5px 0px;
+      padding: 15px;
+      border-radius: 50px;
+
+      &::placeholder {
+        color: #d4d4d4;
+        font-size: 14px;
+        padding-left: 10px;
+      }
+    }
+
+    button {
+      width: 100%;
+      border-radius: 50px;
+      margin-top: 5px;
+    }
+  }
+
+  .blog {
+    .single-blog:not(:last-child) {
+      border-bottom: 1px solid $color-gray-blue;
+      padding-bottom: 30px;
+    }
+    h5 {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.5;
+      color: $color-light;
+    }
+
+    .blog-date {
+      font-size: 12px;
+      color: $color-gray-blue;
+    }
+  }
+}
+
+.footer-bottom {
+  background-color: #00173a;
+  padding: 25px 0px;
+
+  .content {
+    ul a {
+      font-size: 14px;
+      color: $color-gray-blue;
+      margin-right: 30px;
+
+      &:hover {
+        color: $color-light;
+        text-decoration: underline;
+      }
+    }
+
+    p {
+      color: $color-light;
+      font-size: 14px;
+
+      a {
+        color: $color-light;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

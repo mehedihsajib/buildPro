@@ -1,0 +1,50 @@
+// HOME HERO
+.hero-wrapper {
+  background-image: linear-gradient(#f8f8f8e0, #f8f8f8e0),
+    url("../img/hero-bg.jpg");
+  padding-top: 180px;
+  padding-bottom: 190px;
+
+  @media (max-width: 991px) {
+    padding-top: 140px;
+    padding-bottom: 150px;
+  }
+
+  @media (max-width: 767px) {
+    padding-top: 110px;
+    padding-bottom: 120px;
+  }
+
+  .content {
+    p {
+      font-size: 24px;
+      color: $color-gray-blue;
+      @media (max-width: 767px) {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+// BLOG HERO
+.blog-hero-wrapper {
+  background-image: linear-gradient(#f8f8f8e0, #f8f8f8e0),
+    url("../img/video-bg.jpg");
+
+  .hero-content {
+    margin-top: -7px;
+    padding-bottom: 5px;
+  }
+
+  .breadcrumb {
+    &-item {
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    &-item.active {
+      color: $color-primary;
+    }
+  }
+}

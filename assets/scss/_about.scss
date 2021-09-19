@@ -1,0 +1,31 @@
+.about-us-wrapper {
+  background-color: $color-light;
+  border-bottom: 1px solid #eeeeee;
+
+  .left {
+    background-image: url("../img/about-img.jpg");
+    height: 435px;
+  }
+
+  .right {
+    @media (max-width: 991px) {
+      margin-left: 0;
+    }
+    span {
+      color: $color-secondary;
+      font-weight: bold;
+    }
+  }
+
+  .button {
+    background-color: $color-gray-light;
+    display: inline-block;
+  }
+
+  .partner-carousel-wrapper {
+    padding-top: 120px;
+    img {
+      width: 80%;
+    }
+  }
+}

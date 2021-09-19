@@ -1,0 +1,20 @@
+.section-padding {
+  padding: 120px 0px;
+
+  @media (max-width: 991px) {
+    padding: 100px 0px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 80px 0px;
+  }
+}
+
+.button-shadow {
+  box-shadow: 0px 5px 10px rgba(153, 153, 153, 0.178);
+}
+
+.section-header {
+  margin-top: -7px;
+  margin-bottom: 45px;
+}

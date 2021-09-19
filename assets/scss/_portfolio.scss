@@ -1,0 +1,54 @@
+.portfolio-wrapper {
+  position: relative;
+  background-color: $color-light;
+
+  &::after {
+    content: "";
+    height: 100%;
+    width: 42%;
+    background-color: $color-primary;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @media (max-width: 576px) {
+      width: 70%;
+    }
+  }
+
+  .portfolio-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    .section-small-heading {
+      color: $color-light;
+    }
+
+    .heading-secondary {
+      color: $color-light;
+    }
+  }
+
+  .porfolio-card-wrapper {
+    .portfolio-card {
+      max-width: 400px;
+      background-color: $color-light;
+    }
+    .portfolio-card-img {
+      width: 100%;
+      height: 370px;
+    }
+
+    .card-details {
+      width: 100%;
+      padding: 35px 35px 35px 35px;
+      p {
+        color: #bfc2c8;
+        font-size: 14px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}

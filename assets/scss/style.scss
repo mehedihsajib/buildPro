@@ -1,0 +1,24 @@
+// IMPORT THEME
+@import "./theme/variables";
+@import "./theme/helper";
+@import "./theme/typography";
+@import "./theme/utilities";
+@import "./theme/buttons";
+@import "./theme//scrollTop";
+
+// IMPORT SECTIONS
+@import "./navbar";
+@import "./card";
+@import "./popup";
+@import "./slider";
+@import "./plusIcon";
+@import "./header";
+@import "./hero";
+@import "./about";
+@import "./services";
+@import "./counter";
+@import "./portfolio";
+@import "./testimonial";
+@import "./contact";
+@import "./blog";
+@import "./footer";

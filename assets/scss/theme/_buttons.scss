@@ -1,0 +1,53 @@
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 18px 40px;
+
+  @media (max-width: 767px) {
+    padding: 18px 25px;
+    font-size: 14px;
+  }
+}
+
+.button-primary {
+  background-color: $color-primary;
+  color: $color-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    color: $color-light;
+    background-color: #d85316;
+    transition: all 0.3s ease-in;
+  }
+}
+
+.button-secondary {
+  background-color: $color-light;
+  color: $color-secondary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    color: $color-gray;
+
+    transition: all 0.3s ease-in;
+  }
+}
+
+.js-modal-btn {
+  background-color: $color-light;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  color: $color-primary;
+  font-size: 20px;
+
+  @media (max-width: 767px) {
+    height: 80px;
+    width: 80px;
+  }
+}

@@ -1,0 +1,53 @@
+.services-wrapper {
+  .service-card {
+    padding: 37px;
+    border: 1px solid #eeeeee;
+
+    @media (max-width: 991px) {
+      margin: 10px 0px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #bfc2c8;
+    }
+
+    .top-icon {
+      font-size: 60px;
+      color: $color-primary;
+    }
+  }
+
+  .popup-video {
+    background-image: linear-gradient(#f8f8f8e0, #f8f8f8e0),
+      url("../img/video-bg.jpg");
+
+    min-height: 600px;
+    margin-top: 120px;
+    margin-bottom: -335px;
+    z-index: 11;
+    position: relative;
+
+    @media (max-width: 991px) {
+      min-height: 500px;
+    }
+
+    @media (max-width: 767px) {
+      min-height: 400px;
+    }
+
+    @media (max-width: 575px) {
+      min-height: 300px;
+      margin-bottom: -235px;
+    }
+
+    .js-modal-btn {
+      background-color: $color-light;
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      color: $color-primary;
+      font-size: 20px;
+    }
+  }
+}
